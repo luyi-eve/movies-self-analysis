@@ -1,3 +1,8 @@
+other/
+Story proposal.docx
+raw-chart.html
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
