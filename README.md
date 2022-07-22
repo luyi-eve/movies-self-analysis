@@ -7,5 +7,8 @@ The tool I used to track the movies/tv shows activities is a Chinese social netw
 
 I scraped my own social media pages on Douban for movies' data collection and found a subtle pattern that might be able to explain how my movie activities were affected when I first moved to a new country⛱️.
 
-You can find raw data I pulled from the webpages along with a clean version I edited after so. I am also including the major data analysis notebooks into the folder in case you might want to check how I scrape, clean and prepare for the further data analysis.
+About data folder:
+
+- You can find raw data I pulled from the webpages along with a clean version I edited after so here. 
+- I am also including the major data analysis notebooks into the folder in case you might want to check how I scrape, clean and prepare for the further data analysis.
 
