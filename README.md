@@ -10,5 +10,5 @@ I scraped my own social media pages on Douban for movies' data collection and fo
 About data folder:
 
 - You can find raw data I pulled from the webpages along with a clean version I edited after so here. 
-- I am also including the major data analysis notebooks into the folder in case you might want to check how I scrape, clean and prepare for the further data analysis.
+- I am also including the major data analysis notebooks, in case you might want to check how I scrape, clean and prepare for the further data analysis.
 
