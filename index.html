@@ -157,12 +157,19 @@
                 margin-left:auto;
                 margin-right:auto;
             }
+
             .sankey {
-                max-width:1000px;
+                max-width:780px;
                 max-height:1200px;
                 margin-left:auto;
-                margin-right:130px;
+                margin-right:auto;
+                overflow: auto; 
+                /* 
+                 - Overflow property controls what happens to content that is too big to fit into an area.
+                 - This property helps fix the problem of sankey chart being too large to be contained into original wrapper!!
+                */        
             }
+
             .horizontal-chart {
                 margin:auto;
                 max-width: 780px;
@@ -178,11 +185,13 @@
                 padding-top:20px;
                 padding-bottom:20px;
             }
+
             .center {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
             }
+
         </style>
 
         <!-- icon style-->
@@ -835,7 +844,8 @@
             </p>
         </div>
         <div class="sankey">
-            <svg height="1200" width="780" xmlns="http://www.w3.org/2000/svg">
+            <svg height="1200" width="1000" xmlns="http://www.w3.org/2000/svg">
+                <!--height="1200" width="780"-->
                 <title>Movies Category</title>
                 <!-- Generated with SankeyMATIC: 7/17/2022, 12:01:20 PM -->
                 <g transform="translate(12,18)">
