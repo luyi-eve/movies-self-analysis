@@ -26,14 +26,12 @@
         <!--Text Style-->
         <style>
             h1.headline {
-                font-family: DM Serif Display;
-                font-size: 4rem;
-                font-weight: 800px;
+                font-family: "DM Serif Display";
+                font-size: 3rem;
                 line-height: 1em;
                 text-align:center;
                 color: #d0dcc0;
-                margin-bottom: 15px;
-                margin-top: 5px;
+                margin: -1rem auto;
             }
 
             h2.subhead {
@@ -66,37 +64,38 @@
             }
 
             h2.title {
-                font-family: DM Serif Display;
-                font-size: 28px;
-                font-weight: 400px;
-                line-height: 2em;
+                font-family:"DM Serif Display";
+                font-size: 23px;
+                line-height: 1.5em;
                 letter-spacing: 1.5px;
                 text-align:center;
                 color: #d0dcc0;
                 padding-top:20px;
-
+                padding-right:8px;
+                padding-left:8px;
             }
 
             h2.subtitle {
-                font-family: DM Serif Display;
+                font-family: "DM Serif Display";
                 font-size: 20px;
-                font-weight: 400;
-                line-height: 2em;
+                line-height: 1.5em;
                 text-align:center;
                 color: rgb(220, 220, 220);
-                margin-bottom:10px;
+                padding-right:1rem;
+                padding-left:1rem;
             }
 
             p.body-text {
-                font-size: 1.15rem;
+                font-size: 1.06rem;
                 line-height: 1.8em;
-                text-align:justify;
-                margin-top:0px;
-                margin-bottom:15px;
+                text-align:left;
+                margin: 0 auto 15px auto;
+                padding-left: 1rem;
+                padding-right: 1rem;
             }
 
             p.caption {
-                font-family: Cormorant Garamond;
+                font-family: "Cormorant Garamond";
                 font-size: 1.1rem;
                 line-height: 1.4em;
                 text-align:center;
@@ -105,12 +104,64 @@
             }
 
             .findcode {
-                font-family: Cormorant Garamond;
+                font-family: "Cormorant Garamond";
                 font-size: 1.1rem;
                 line-height: 1.4em;
                 text-align:center;
-                margin-top:0;
-                margin-bottom:15px;
+                
+                margin:auto auto;
+                max-width: 32rem;
+                padding-left:1rem;
+                padding-right:1rem;
+                padding-bottom: 1rem;
+            }
+
+            @media only screen and (min-width: 40em){
+                h1.headline {
+                    font-family: "DM Serif Display";
+                    font-size: 4rem;
+                    line-height: 1em;
+                    text-align:center;
+                    color: #d0dcc0;
+                    margin: auto auto;
+                }
+
+                p.body-text {
+                    font-size: 1.15rem;
+                    line-height: 1.8em;
+                    text-align:left;
+                    margin: 0 auto 15px auto;
+                }
+
+                h2.title {
+                    font-family: "DM Serif Display";
+                    font-size: 28px;
+                    line-height: 2em;
+                    letter-spacing: 1.5px;
+                    text-align:center;
+                    color: #d0dcc0;
+                    padding-top:20px;
+                }
+
+                h2.subtitle {
+                    font-family: "DM Serif Display";
+                    font-size: 20px;
+                    line-height: 2em;
+                    text-align:center;
+                    color: rgb(220, 220, 220);
+                    margin-bottom:10px;
+                }
+
+                .findcode {
+                    font-family: "Cormorant Garamond";
+                    font-size: 1.1rem;
+                    line-height: 1.4em;
+                    text-align:center;
+                    margin:auto auto;
+                    max-width: 38rem;
+                    padding-bottom: 1rem;
+                }
+
             }
 
         </style>
@@ -151,11 +202,15 @@
                 max-width: 1200px;
             }
             .vertical-chart {
-                width:100%;
-                max-width:400px;
-                max-height:1000px;
-                margin-left:auto;
-                margin-right:auto;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                max-width: 32rem;
+            }
+
+            .horizontal-chart {
+                max-width: 780px;
+                padding-left: 1rem;
+                padding-right: 1rem;
             }
 
             .sankey {
@@ -170,9 +225,16 @@
                 */        
             }
 
-            .horizontal-chart {
-                margin:auto;
-                max-width: 780px;
+            @media only screen and (min-width: 40em){
+                .vertical-chart {
+                    max-width: 32rem;
+                    margin:auto auto;
+                }
+
+                .horizontal-chart {
+                    margin:auto;
+                    max-width: 780px;
+                }
             }
 
         </style>
@@ -1566,8 +1628,7 @@
     <footer class="bg-color">
         <p></p>
         <div class="findcode">
-            <p>If you' d like to check my code for this project, they are now available on <a href="https://github.com/luyi-eve/movies-self-analysis">GitHub</a>.</p>
-            <p>The original data are supported by <a href="https://movie.douban.com">Douban.com</a>.</p>
+            <p>If you' d like to check my code for this project, they are now available on <a href="https://github.com/luyi-eve/movies-self-analysis">GitHub</a>. The original data are supported by <a href="https://movie.douban.com">Douban.com</a>.</p>
         </div>
         <!--sometimes icon not showing up is because of subsription plan!-->
         <div class="ending four-icon">
